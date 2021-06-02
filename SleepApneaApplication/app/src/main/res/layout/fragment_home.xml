@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10sp"
+    android:background="#0C0C0C"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="380dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:animateLayoutChanges="false"
+        android:background="@mipmap/background"
+        android:longClickable="false"
+        android:requiresFadingEdge="horizontal|vertical|none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="236dp"
+            android:layout_height="76dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="13dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            tools:src="@mipmap/sleep1" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView1"
+            android:layout_marginEnd="7dp"
+            android:text="Sleep Apnea   Read More >" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="379dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="237dp"
+            android:layout_height="99dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="13dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            tools:src="@mipmap/symp1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="226dp"
+            android:layout_height="38dp"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginEnd="7dp"
+            android:text="Symptoms   Read More >" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="365dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@mipmap/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="237dp"
+            android:layout_height="99dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="13dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="101dp"
+            android:layout_height="144dp"
+            tools:src="@mipmap/symp3" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_marginEnd="7dp"
+            android:text="Treatment   Read More >" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
