@@ -41,8 +41,9 @@ among them decided to work on Neural Networks
 
 ### *4. To build an Android Application that takes user data from a database and print the result after successful prediction by Machine learning model.*
 
-->The Android Application has been developed using Java as the programming language and XML for
-layout using Android Studio Software. The App has activities including Login Activity and Register
-Activity with data transaction and validation to and from SQLITE database which is locally stored in the
-Android.User Session is saved using SharedPreferences and Logout function is Provided in the Profile Fragment
-of the Application which allows the user to upload Profile Picture and displays the logged in username.
+->The Android Application has been developed using Java, XML and SQLITE database which is locally stored in the
+Android.The App comes with Register,Login and Logout Activities with User Session saved using SharedPreferences. Navigation Bar has three Fragments i.e. Home Fragment, Predict Fragment and Profile Fragment.
+
+![Image](https://user-images.githubusercontent.com/52497526/120469377-dedb0e80-c3bf-11eb-9ad0-6165fb815002.jpg)
+
+
